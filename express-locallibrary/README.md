@@ -3,7 +3,7 @@
 3. step3: 启动运用 `SET DEBUG=express-locallibrary:* & npm start` **指定 DEBUG 变量可启用控制台日志记录/调试。例如，当你访问上面的页面时，你会看到调试输出：**
 4. step4：配置自动化更新服务（不需要每次更改代码都重启服务） 1.全局安装自动化工具 `nodemon npm install -g nodemon`；2.在项目中安装本依赖 `npm install --save-dev nodemon`
 5. step5：在 package.json 中配置运行命令`"devstart": "nodemon ./bin/www"`
-6. strp6: 运行` SET DEBUG=express-locallibrary:* & devstart run start`
+6. strp6: 运行` SET DEBUG=express-locallibrary:* & npm run devstart` 或者 `npm run devstart`
 7. 文件目录结束
 
 ```
